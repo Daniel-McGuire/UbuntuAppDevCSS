@@ -1,5 +1,8 @@
+/* Replace this image with whatever image you want, make sure you keep the repeat scroll.
+      Remember to upload the image to Reddit
+*/
 body {
-    background: url(%%image-background-paper%%) repeat scroll 0 0 transparent;
+	background: url(%%image-background-paper%%) repeat scroll 0 0 transparent;
 }
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,iframe, .linkflairlabel {
     font-family: 'Ubuntu', sans-serif;
@@ -19,7 +22,7 @@ form input[type="checkbox"]{
 }
 
 a {
-    color:#dd4814;
+      color:#dd4814;
 }
 
 a:hover {
@@ -95,17 +98,13 @@ a:hover {
     line-height: 200%;
 }
 
-/*#siteTable a {
-    color:#dd4814;
-}*/
-
 .entry {
- -moz-border-radius: 4px;
- -webkit-border-radius: 4px;
- border-radius: 4px;
- -webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
- box-shadow: 0 2px 2px 0 #C2C2C2;
- padding: 4px;
+	-moz-border-radius: 4px;
+ 	-webkit-border-radius: 4px;
+ 	border-radius: 4px;
+ 	-webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
+ 	box-shadow: 0 2px 2px 0 #C2C2C2;
+ 	padding: 4px;
 }
 .user {
     color: #333;
@@ -116,10 +115,6 @@ a:hover {
 }
 .logout a {
     color: #AEA79F;
-}
-
-#header-img {
-
 }
 
 #sr-header-area {
@@ -142,15 +137,15 @@ a:hover {
     font-size:80%;
 }
 #sr-header-area .width-clip {
- position:absolute;
- left:0;
- right:0;
+ 	position:absolute;
+ 	left:0;
+ 	right:0;
 }
 #sr-header-area .selected a {
-   color:orangered;
+    color:orangered;
 }
 #sr-header-area .sr-list {
-   overflow:hidden;
+    overflow:hidden;
 }
 #sr-header-area .selected a {
     color: #DD4814;
@@ -164,19 +159,19 @@ a:hover {
     margin-top:0px;
     margin-left:5px;
 }
-/* #header */
+
 #header {
- border-bottom:1px solid #AEA79F;
- position:relative;
- background-color:#dd4814;
- z-index:99;
- -moz-border-radius-bottomleft:4px;
- -webkit-border-bottom-left-radius:4px;
- border-bottom-left-radius:4px;
- -moz-border-radius-bottomright:4px;
- -webkit-border-bottom-right-radius:4px;
- border-bottom-right-radius:4px;
-background: url(%%menu-bg%%) repeat-x scroll left top #dd4814!important; 
+ 	border-bottom:1px solid #AEA79F;
+ 	position:relative;
+ 	background-color:#dd4814;
+ 	z-index:99;
+ 	-moz-border-radius-bottomleft:4px;
+ 	-webkit-border-bottom-left-radius:4px;
+ 	border-bottom-left-radius:4px;
+ 	-moz-border-radius-bottomright:4px;
+ 	-webkit-border-bottom-right-radius:4px;
+ 	border-bottom-right-radius:4px;
+	background: url(%%menu-bg%%) repeat-x scroll left top #dd4814!important;
 }
 
 #header-img.default-header {
@@ -186,62 +181,62 @@ background: url(%%menu-bg%%) repeat-x scroll left top #dd4814!important;
 }
 
 #header-top {
- position:absolute;
- right:5px;
+	position:absolute;
+	right:5px;
 }
 .tabmenu{
- background: scroll right top;
- background-color:  #dd4814;
- margin-top: 0px;
- white-space: normal;
- background: transparent;
+	background: scroll right top;
+	background-color:  #dd4814;
+	margin-top: 0px;
+	white-space: normal;
+	background: transparent;
 
 
 }
 .tabmenu li a {
- background-color: #dd4814;
- float: left;
- position: relative;
- display: block;
- font-size: 14px;
- font-weight: normal;
- height: 44px; 
- margin: 0 0 0 -1px;
- color: white;
- padding: 23px 7px 0 6px;
- text-align: center;
- background: transparent;
+	 background-color: #dd4814;
+	 float: left;
+	 position: relative;
+	 display: block;
+	 font-size: 14px;
+	 font-weight: normal;
+	 height: 44px;
+	 margin: 0 0 0 -1px;
+	 color: white;
+	 padding: 23px 7px 0 6px;
+	 text-align: center;
+	 background: transparent;
 
 }
 .tabmenu li a:hover{
- background-color: #dd4814;
- float: left;
- position: relative;
- display: block;
- font-size: 14px;
- font-weight: normal;
- height: 44px; 
- margin: 0 0 0 -1px;
- color: white;
- padding: 23px 7px 0 6px;
- text-align: center;
- text-decoration: none;
-text-decoration: underline;
-background: transparent;
+	background-color: #dd4814;
+	float: left;
+	position: relative;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	height: 44px;
+	margin: 0 0 0 -1px;
+	color: white;
+	padding: 23px 7px 0 6px;
+	text-align: center;
+	text-decoration: none;
+	text-decoration: underline;
+	background: transparent;
 }
 .tabmenu li.selected a {
- background-color: #B83A10;
- float: left;
- position: relative;
- display: block;
- font-size: 14px;
- font-weight: normal;
- height: 44px; 
- margin: 0 0 0 -1px;
- color: white;
- padding: 23px 7px 0 6px;
- text-align: center;
- border:none;
+	background-color: #B83A10;
+	float: left;
+	position: relative;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	height: 44px;
+	margin: 0 0 0 -1px;
+	color: white;
+	padding: 23px 7px 0 6px;
+	text-align: center;
+	border:none;
 }
 
 #header-bottom-left {
@@ -249,13 +244,12 @@ background: transparent;
 }
 
 /* This is the header that displays your name, email, preferences, and logout */
-#header-bottom-right {
+	#header-bottom-right {
     background-color: transparent;
     bottom: 0px;
     margin-top: 30px;
     height: 12px;
     font-weight: bold;
-
 }
 
 #header-bottom-right a {
@@ -280,49 +274,45 @@ background: transparent;
 
 /* boite profile/msg login*/
 .content{
-padding-top:0px;
+	padding-top:0px;
 }
-.spacer #search{
-margin-top: 28px;
-margin-left: 10px;
-margin-right: 10px;
- top:-16px;
-position:relative;
-border-radius: 4px;
-background-color: #BE3D00;
-
+.spacer #search {
+	margin-top: 28px;
+	margin-left: 10px;
+	margin-right: 10px;
+	 top:-16px;
+	position:relative;
+	border-radius: 4px;
+	background-color: #BE3D00;
 }
 
 /*logo reddit*/
 #header-img-a{
- margin-top:8px;
- margin-left:4px;
-position: absolute;
-right: 4px;
+	margin-top:8px;
+	margin-left:4px;
+	position: absolute;
+	right: 4px;
 }
 #header-img-a:hover:before{
- position: absolute;
-  display: block;
-  z-index: 1000;
-  width: 124px;
-  height: 42px;
-  background: #fff;
-  color: #665;
-  content: "";
-  font-size: 12px;
-  font-weight: bold;
-  text-align: left;
-   text-shadow: 0 1px #DDD;
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	width: 124px;
+	height: 42px;
+	background: #fff;
+	color: #665;
+	content: "";
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 1px #DDD;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-shadow: 0 2px 2px 0 #CCC;
     box-shadow: 0 2px 2px 0 #CCC;
-background: url(%%reddit-ubuntufr-orange-sized%%) no-repeat scroll left top #fff!important; 
-
+	background: url(%%reddit-ubuntufr-orange-sized%%) no-repeat scroll left top #fff!important;
 }
-
-/*logo ubuntufr */
 
 .pagename {
     width: 160px!important;
@@ -342,45 +332,10 @@ background: url(%%reddit-ubuntufr-orange-sized%%) no-repeat scroll left top #fff
     vertical-align: 28px;
     padding-left: 0px;
 }
-/*
-.pagename, .pagename a {
-    border: medium none;
-    position: relative;
-    font-size: 14px;
-    font-weight: normal;
-    height: 41px; 
-    margin: 0 0 0 -1px;
-    color: white;
-    padding: 23px 7px 0 6px;
-    text-align: center;
-    text-shadow: 0 1px black;
-    text-decoration: none;
-    bottom: 12px;
-    font-family: "Ubuntu Mono",sans-serif !important;
-}*/
-/*
-.pagename, .pagename a:hover{
-    border: medium none;
-    position: relative;
-    font-size: 14px;
-    font-weight: normal;
-    height: 41px; 
-    margin: 0 0 0 -1px;
-    color: white;
-    padding: 29px 14px 12px 16px;
-    text-align: center;
-    text-shadow: 0 1px black;
-    text-decoration: none;
-    bottom: 12px;
-    font-family: "Ubuntu Mono",sans-serif !important;
-    background: url(%%bg-menu-button%%) repeat-x scroll left top #B83A10!important;
-} */
 
 .usertext-body {
-border-top: 1px solid #DFDCD9;
-
-
- padding: 5px;
+	border-top: 1px solid #DFDCD9;
+	padding: 5px;
 }
 /* separateur sidebar => ** ** */
 .titlebox hr{
@@ -416,13 +371,12 @@ border-top: 1px solid #DFDCD9;
     background: url(%%slashedge%%)  no-repeat scroll left top #fff!important;
     background-position:42px 42%!important;
     opacity:0.5;
-/*display:none; En attendant la maj du tour*/
+
 }
 .titlebox blockquote:first-child a{
-    /*font-size:12px;*/
+
     color: #000;
 }
-/* hack pour le nuage de tag */
 .titlebox p em {
     display: inline-block;
     line-height: 1.8em;
@@ -457,11 +411,11 @@ border-top: 1px solid #DFDCD9;
     padding-top:2px;
     }
 
-/* Hack boutton RSS*/
+/* Hack button RSS*/
 .titlebox p del {
     text-decoration:none!important;
     z-index: 1!important;
-} 
+}
 .titlebox p del {
     position:absolute;
     top:352px;
@@ -483,58 +437,56 @@ border-top: 1px solid #DFDCD9;
 }
 
 textarea {
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border-radius: 2px;
-background: #FFF;
-border: 1px solid #999;
-font-size: 13px;
-padding: 4px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #FFF;
+	border: 1px solid #999;
+	font-size: 13px;
+	padding: 4px;
 }
 .linkinfo {
-
-border: 1px solid #AEA79F;
-background-color: #EFEFEF;
-font-family: 'ubuntu mono',sans-serif;
-font-size: larger;
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
-border-radius: 3px;
+	border: 1px solid #AEA79F;
+	background-color: #EFEFEF;
+	font-family: 'ubuntu mono',sans-serif;
+	font-size: larger;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
 
 #search input[type="text"] {
--moz-border-radius: 2px;
--webkit-border-radius: 2px;
-border-radius: 2px;
-background: #FFF;
-border: 1px solid #999;
-font-size: 13px;
-padding: 4px;
-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2) inset;
-box-sizing: border-box;
-border-radius: 4px;
-transition: all 0.5s ease-out 0s;
-background-color: #BE3D00;
-border: medium none;
-color: #FFF;
-display: block;
-float: left;
-font-size: 16px;
-height: 2.1em;
-margin-bottom: 0px;
-padding: 0.5em 2.5em 0.5em 0.5em;
-width: 100%;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #FFF;
+	border: 1px solid #999;
+	font-size: 13px;
+	padding: 4px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2) inset;
+	box-sizing: border-box;
+	border-radius: 4px;
+	transition: all 0.5s ease-out 0s;
+	background-color: #BE3D00;
+	border: medium none;
+	color: #FFF;
+	display: block;
+	float: left;
+	font-size: 16px;
+	height: 2.1em;
+	margin-bottom: 0px;
+	padding: 0.5em 2.5em 0.5em 0.5em;
+	width: 100%;
 }
 
 /** Magnifying Glass in the Search bar **/
 #search input[type="submit"] {
-margin-top: 10px;
-height: 13px;
-width: 13px;
+	margin-top: 10px;
+	height: 13px;
+	width: 13px;
 }
 
 /** Soumettre un lien section **/
-
 .formtabs-content {
     font-family: 'ubuntu mono', sans-serif;
     width: 520px;
@@ -566,9 +518,9 @@ width: 13px;
 }
 
 .formtabs-content .infobar {
-margin: 0;
-padding: 10px;
-margin-top: -10px;
+	margin: 0;
+	padding: 10px;
+	margin-top: -10px;
 }
 
 .infobar a {
@@ -584,12 +536,12 @@ margin-top: -10px;
 }
 
 .tabmenu.formtab a {
-font-weight: normal;
-outline: none;
-padding: 0px 12px;
-vertical-align: bottom;
-border-bottom: none;
-height: 25px;
+	font-weight: normal;
+	outline: none;
+	padding: 0px 12px;
+	vertical-align: bottom;
+	border-bottom: none;
+	height: 25px;
 }
 
 
@@ -604,7 +556,7 @@ ul.tabmenu.formtab {
     height: 25px;
     width: 82px;
     margin-bottom: 20px;
-    padding-left: 10px; 
+    padding-left: 10px;
     margin-left: 4px;
 }
 
@@ -615,7 +567,7 @@ ul.tabmenu.formtab {
     display: block;
     font-size: 14px;
     font-weight: normal;
-    height: 22px; 
+    height: 22px;
     margin: 0 0 0 -1px;
     color: white;
     padding: 3px 7px 0 6px;
@@ -631,7 +583,7 @@ ul.tabmenu.formtab {
      display: block;
      font-size: 14px;
      font-weight: normal;
-     height: 22px; 
+     height: 22px;
      margin: 0 0 0 -1px;
      color: white;
      padding: 3px 7px 0 6px;
@@ -656,51 +608,45 @@ ul.tabmenu.formtab {
     text-decoration: none;
     border:none;
 }
-/* hack wording (thanks to /u/iamnotfreud: http://redd.it/14y924 )*/
-/* replace 'readers' with something else (here ubunteros)*/
+
 .subscribers .word {
-display: none;
-}  
+	display: none;
+}
+/* Change Members to whatever you want */
 .subscribers .number::after {
-content: " Members";
+	content: " Members";
 }
 
 /* replace 'online readers' with something else*/
-
 .users-online .word {
-display: none;
-}  
-
+	display: none;
+}
 
 .sidebox.submit .morelink:hover:before {
-color: white;
-content: ""; /* #todo this is done because link is not clicable, so we remove it */ 
+	color: white;
+	content: "";
 }
 
 .side .sidebox.submit:hover:before {
-  position: absolute;
-  display: block;
-  z-index: 1000;
-  margin-left: 0;
-  margin-top: 32px;
-  padding: 5px;
-  width: 288px;
-  height: 64px;
-  background: #fff;
-  color: #AEA79F;
-/*  content: " ⇧ Cliquez ici pour soumettre un lien ici ⇧";*/
-  font-size: 13px;
-  font-weight: bold;
-  text-align: center;
-    -moz-border-radius: 4px;
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	margin-left: 0;
+	margin-top: 32px;
+	padding: 5px;
+	width: 288px;
+	height: 64px;
+	background: #fff;
+	color: #AEA79F;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
     box-shadow: 0 2px 2px 0 #C2C2C2;
 }
-
-
-/** End of Soumettre un lien section **/
 
 .fancy-toggle-button .active {
     border: 1px solid #DD4814;
@@ -780,7 +726,7 @@ content: ""; /* #todo this is done because link is not clicable, so we remove it
     -webkit-border-radius: 4px;
     -moz-box-shadow: 0 2px 2px 0 #C2C2C2;
     -webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
-    box-shadow: 0 2px 2px 0 #C2C2C2; 
+    box-shadow: 0 2px 2px 0 #C2C2C2;
 
 }
 #moderation_tools.sidecontentbox .title h1 {
@@ -788,7 +734,6 @@ content: ""; /* #todo this is done because link is not clicable, so we remove it
 }
 
 #moderation_tools.sidecontentbox .title h1:before {
-
     text-align: center;
     position: relative;
     border: 1px solid #DD4814;
@@ -808,10 +753,11 @@ content: ""; /* #todo this is done because link is not clicable, so we remove it
     color: #FFF;
     content: "Subreddit Management"
 }
-.sidecontentbox .helplink + .title h1:before { 
+
+.sidecontentbox .helplink + .title h1:before {
     font-size: 16pt; content: "SABDFL's"
-}  
-.sidecontentbox .helplink + .title h1 { 
+}
+.sidecontentbox .helplink + .title h1 {
     font-size: 0
 }
 .sidecontentbox .title h1 {
@@ -911,19 +857,12 @@ content: ""; /* #todo this is done because link is not clicable, so we remove it
     color: #FFF;
 }
 
-/** cache le lien ubuntufr lors de la soummission du lien**/
 form h1{display:none!important;}
 
-/**
-Text/Video/Image btn [+]
-#TODO change image (blue→orange)
-**/
 .link .usertext .md{
     border-color:#DD4814;
 }
-/**
- special post
-**/
+/*special post*/
 .stickied-tagline{
     background: url(%%sticky14%%) no-repeat scroll left center!important;
     padding-left: 18px;
@@ -935,7 +874,7 @@ Text/Video/Image btn [+]
     border-radius: 4px;
     box-shadow: 1px 2px 2px 1px #C2C2C2;
     overflow: hidden;
-    
+
 }
 .stickied > div {
     background:none;
@@ -944,19 +883,17 @@ Text/Video/Image btn [+]
     box-shadow:none;
 }
 /**end special post**/
-
-/** flair/insigne reddit **/
 /** moderator**/
 .userattrs>.moderator {
     color:#FFF!important;
     padding-top:2px;
     font-size:0px;
-    
+
 }
 .userattrs>.moderator:after {
-    
-content: "___";
-font-size:16px;
+
+	content: "___";
+	font-size:16px;
     position:relative;
     padding-top:6px;
     top:3px;
@@ -965,17 +902,17 @@ font-size:16px;
     font-size:x-small;
     background: url(%%moderator%%) no-repeat scroll center center!important;
 }
-/** friend **/
+/* friend */
 .userattrs>.friend{
     color:#FFF!important;
     padding-top:2px;
     font-size:0px;
-    
+
 }
 .userattrs>.friend:after {
-    
-content: "___";
-font-size:16px;
+
+	content: "___";
+	font-size:16px;
     position:relative;
     padding-top:6px;
     top:3px;
@@ -984,16 +921,16 @@ font-size:16px;
     font-size:x-small;
     background: url(%%friend%%) no-repeat scroll center center!important;
 }
-/** cakeday**/
+/* cakeday*/
 .tagline .userattrs .cakeday{
     color:#FFF!important;
     padding-top:-1px;
     font-size:0px;
-    
+
 }
 .tagline .userattrs .cakeday:after {
-content: "___";
-font-size:16px;
+	content: "___";
+	font-size:16px;
     position:relative;
     padding-top:6px;
     top:0px;
@@ -1012,12 +949,12 @@ font-size:16px;
     color:#FFF!important;
     padding-top:2px;
     font-size:0px;
-    
+
 }
 .userattrs>.submitter:after {
-    
-content: "___";
-font-size:16px;
+
+	content: "___";
+	font-size:16px;
     position:relative;
     padding-top:6px;
     top:3px;
@@ -1057,111 +994,110 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     background: url(%%spritesheet%%) no-repeat -9999px -9999px;
     display:inline-block;
 }
-    
-.flair-3dsMax{ background-position: 0 0; width: 32px; height: 32px; } 
-.flair-Gnu-octave{ background-position: 0 -96px; width: 32px; height: 32px; } 
-.flair-J{ background-position: 0 -192px; width: 32px; height: 32px; } 
-.flair-Oberon{ background-position: 0 -288px; width: 32px; height: 32px; } 
-.flair-acl2{ background-position: 0 -384px; width: 32px; height: 32px; } 
-.flair-actionscript{ background-position: 0 -480px; width: 32px; height: 32px; } 
-.flair-ampl{ background-position: 0 -576px; width: 32px; height: 32px; } 
-.flair-apl{ background-position: 0 -672px; width: 32px; height: 32px; } 
-.flair-aplus{ background-position: 0 -768px; width: 32px; height: 32px; } 
-.flair-appinventor{ background-position: 0 -864px; width: 32px; height: 32px; } 
-.flair-applescript{ background-position: 0 -960px; width: 32px; height: 32px; } 
-.flair-arc{ background-position: 0 -1056px; width: 32px; height: 32px; } 
-.flair-assembly{ background-position: 0 -1152px; width: 32px; height: 32px; } 
-.flair-autohotkey{ background-position: 0 -1248px; width: 32px; height: 32px; } 
-.flair-autoit{ background-position: 0 -1344px; width: 32px; height: 32px; } 
-.flair-axum{ background-position: 0 -1440px; width: 32px; height: 32px; } 
-.flair-bash{ background-position: 0 -1536px; width: 32px; height: 32px; } 
-.flair-batch{ background-position: 0 -1632px; width: 32px; height: 32px; } 
-.flair-boo{ background-position: 0 -1728px; width: 32px; height: 32px; } 
-.flair-brew{ background-position: 0 -1824px; width: 41px; height: 41px; } 
-.flair-c{ background-position: 0 -1929px; width: 32px; height: 32px; } 
-.flair-caml{ background-position: -105px 0; width: 32px; height: 32px; } 
-.flair-ceylon{ background-position: -105px -96px; width: 32px; height: 32px; } 
-.flair-chapel{ background-position: -105px -192px; width: 32px; height: 32px; } 
-.flair-cleanlang{ background-position: -105px -288px; width: 32px; height: 32px; } 
-.flair-clojure{ background-position: -105px -384px; width: 32px; height: 32px; } 
-.flair-cms{ background-position: -105px -480px; width: 32px; height: 32px; } 
-.flair-cobol{ background-position: -105px -576px; width: 32px; height: 32px; } 
-.flair-coffeescript{ background-position: -105px -672px; width: 32px; height: 32px; } 
-.flair-coq{ background-position: -105px -768px; width: 32px; height: 32px; } 
-.flair-csharp{ background-position: -105px -864px; width: 32px; height: 32px; } 
-.flair-d{ background-position: -105px -960px; width: 32px; height: 32px; } 
-.flair-ecmascript{ background-position: -105px -1056px; width: 32px; height: 32px; } 
-.flair-erlang{ background-position: -105px -1152px; width: 32px; height: 32px; } 
-.flair-falcon{ background-position: -105px -1248px; width: 32px; height: 32px; } 
-.flair-fortran{ background-position: -105px -1344px; width: 32px; height: 32px; } 
-.flair-foxpro{ background-position: -105px -1440px; width: 32px; height: 32px; } 
-.flair-fsharp{ background-position: -105px -1536px; width: 32px; height: 32px; } 
-.flair-fsp{ background-position: -105px -1632px; width: 32px; height: 32px; } 
-.flair-gamemakerstudio{ background-position: -105px -1728px; width: 32px; height: 32px; } 
-.flair-go{ background-position: -105px -1824px; width: 32px; height: 32px; } 
-.flair-google-apps-script{ background-position: -105px -1920px; width: 32px; height: 32px; } 
-.flair-groovy{ background-position: -210px 0; width: 32px; height: 32px; } 
-.flair-gtk{ background-position: -210px -96px; width: 32px; height: 32px; } 
-.flair-hack{ background-position: -210px -192px; width: 32px; height: 32px; } 
-.flair-haskell{ background-position: -210px -288px; width: 32px; height: 32px; } 
-.flair-haxe{ background-position: -210px -384px; width: 32px; height: 32px; } 
-.flair-hop{ background-position: -210px -480px; width: 32px; height: 32px; } 
-.flair-html5{ background-position: -210px -576px; width: 32px; height: 32px; } 
-.flair-io{ background-position: -210px -672px; width: 32px; height: 32px; } 
-.flair-ioke{ background-position: -210px -768px; width: 32px; height: 32px; } 
-.flair-jade{ background-position: -210px -864px; width: 32px; height: 32px; } 
-.flair-java{ background-position: -210px -960px; width: 32px; height: 32px; } 
-.flair-js{ background-position: -210px -1056px; width: 32px; height: 32px; } 
-.flair-julia{ background-position: -210px -1152px; width: 32px; height: 32px; } 
-.flair-lilypond{ background-position: -210px -1248px; width: 32px; height: 32px; } 
-.flair-lua{ background-position: -210px -1344px; width: 32px; height: 32px; } 
-.flair-mathematica{ background-position: -210px -1440px; width: 32px; height: 32px; } 
-.flair-matlab{ background-position: -210px -1536px; width: 32px; height: 32px; } 
-.flair-maxima{ background-position: -210px -1632px; width: 32px; height: 32px; } 
-.flair-mercury{ background-position: -210px -1728px; width: 32px; height: 32px; } 
-.flair-metal{ background-position: -210px -1824px; width: 32px; height: 32px; } 
-.flair-modula3{ background-position: -210px -1920px; width: 32px; height: 32px; } 
-.flair-nasm{ background-position: -315px 0; width: 32px; height: 32px; } 
-.flair-neko{ background-position: -315px -96px; width: 32px; height: 32px; } 
-.flair-obix{ background-position: -315px -192px; width: 32px; height: 32px; } 
-.flair-objectivec{ background-position: -315px -288px; width: 32px; height: 32px; } 
-.flair-opa{ background-position: -315px -384px; width: 32px; height: 32px; } 
-.flair-opencl{ background-position: -315px -480px; width: 32px; height: 32px; } 
-.flair-opengl{ background-position: -315px -576px; width: 32px; height: 32px; } 
-.flair-oxygene{ background-position: -315px -672px; width: 32px; height: 32px; } 
-.flair-pawl{ background-position: -315px -768px; width: 32px; height: 32px; } 
-.flair-php{ background-position: -315px -864px; width: 32px; height: 32px; } 
-.flair-picolisp{ background-position: -315px -960px; width: 32px; height: 32px; } 
-.flair-pike{ background-position: -315px -1056px; width: 32px; height: 32px; } 
-.flair-processing{ background-position: -315px -1152px; width: 32px; height: 32px; } 
-.flair-python{ background-position: -315px -1248px; width: 32px; height: 32px; } 
-.flair-qml{ background-position: -315px -1344px; width: 32px; height: 32px; } 
-.flair-qt{ background-position: -315px -1440px; width: 32px; height: 32px; } 
-.flair-r{ background-position: -315px -1536px; width: 32px; height: 32px; } 
-.flair-racket{ background-position: -315px -1632px; width: 32px; height: 32px; } 
-.flair-rebel{ background-position: -315px -1728px; width: 32px; height: 32px; } 
-.flair-red{ background-position: -315px -1824px; width: 32px; height: 32px; } 
-.flair-rexx{ background-position: -315px -1920px; width: 32px; height: 32px; } 
-.flair-robotc{ background-position: -420px 0; width: 32px; height: 32px; } 
-.flair-ruby{ background-position: -420px -96px; width: 32px; height: 32px; } 
-.flair-rust{ background-position: -420px -192px; width: 32px; height: 32px; } 
-.flair-sas{ background-position: -420px -288px; width: 32px; height: 32px; } 
-.flair-scala{ background-position: -420px -384px; width: 32px; height: 32px; } 
-.flair-scheme{ background-position: -420px -480px; width: 32px; height: 32px; } 
-.flair-scratch{ background-position: -420px -576px; width: 32px; height: 32px; } 
-.flair-self{ background-position: -420px -672px; width: 32px; height: 32px; } 
-.flair-squeak{ background-position: -420px -768px; width: 32px; height: 32px; } 
-.flair-sumulink{ background-position: -420px -864px; width: 32px; height: 32px; } 
-.flair-swift{ background-position: -420px -960px; width: 32px; height: 32px; } 
-.flair-tcl{ background-position: -420px -1056px; width: 32px; height: 33px; } 
-.flair-tex{ background-position: -420px -1153px; width: 32px; height: 32px; } 
-.flair-visualbasicexpress{ background-position: -420px -1249px; width: 32px; height: 32px; } 
-.flair-xojo{ background-position: -420px -1345px; width: 32px; height: 32px; } 
+
+.flair-3dsMax{ background-position: 0 0; width: 32px; height: 32px; }
+.flair-Gnu-octave{ background-position: 0 -96px; width: 32px; height: 32px; }
+.flair-J{ background-position: 0 -192px; width: 32px; height: 32px; }
+.flair-Oberon{ background-position: 0 -288px; width: 32px; height: 32px; }
+.flair-acl2{ background-position: 0 -384px; width: 32px; height: 32px; }
+.flair-actionscript{ background-position: 0 -480px; width: 32px; height: 32px; }
+.flair-ampl{ background-position: 0 -576px; width: 32px; height: 32px; }
+.flair-apl{ background-position: 0 -672px; width: 32px; height: 32px; }
+.flair-aplus{ background-position: 0 -768px; width: 32px; height: 32px; }
+.flair-appinventor{ background-position: 0 -864px; width: 32px; height: 32px; }
+.flair-applescript{ background-position: 0 -960px; width: 32px; height: 32px; }
+.flair-arc{ background-position: 0 -1056px; width: 32px; height: 32px; }
+.flair-assembly{ background-position: 0 -1152px; width: 32px; height: 32px; }
+.flair-autohotkey{ background-position: 0 -1248px; width: 32px; height: 32px; }
+.flair-autoit{ background-position: 0 -1344px; width: 32px; height: 32px; }
+.flair-axum{ background-position: 0 -1440px; width: 32px; height: 32px; }
+.flair-bash{ background-position: 0 -1536px; width: 32px; height: 32px; }
+.flair-batch{ background-position: 0 -1632px; width: 32px; height: 32px; }
+.flair-boo{ background-position: 0 -1728px; width: 32px; height: 32px; }
+.flair-brew{ background-position: 0 -1824px; width: 41px; height: 41px; }
+.flair-c{ background-position: 0 -1929px; width: 32px; height: 32px; }
+.flair-caml{ background-position: -105px 0; width: 32px; height: 32px; }
+.flair-ceylon{ background-position: -105px -96px; width: 32px; height: 32px; }
+.flair-chapel{ background-position: -105px -192px; width: 32px; height: 32px; }
+.flair-cleanlang{ background-position: -105px -288px; width: 32px; height: 32px; }
+.flair-clojure{ background-position: -105px -384px; width: 32px; height: 32px; }
+.flair-cms{ background-position: -105px -480px; width: 32px; height: 32px; }
+.flair-cobol{ background-position: -105px -576px; width: 32px; height: 32px; }
+.flair-coffeescript{ background-position: -105px -672px; width: 32px; height: 32px; }
+.flair-coq{ background-position: -105px -768px; width: 32px; height: 32px; }
+.flair-csharp{ background-position: -105px -864px; width: 32px; height: 32px; }
+.flair-d{ background-position: -105px -960px; width: 32px; height: 32px; }
+.flair-ecmascript{ background-position: -105px -1056px; width: 32px; height: 32px; }
+.flair-erlang{ background-position: -105px -1152px; width: 32px; height: 32px; }
+.flair-falcon{ background-position: -105px -1248px; width: 32px; height: 32px; }
+.flair-fortran{ background-position: -105px -1344px; width: 32px; height: 32px; }
+.flair-foxpro{ background-position: -105px -1440px; width: 32px; height: 32px; }
+.flair-fsharp{ background-position: -105px -1536px; width: 32px; height: 32px; }
+.flair-fsp{ background-position: -105px -1632px; width: 32px; height: 32px; }
+.flair-gamemakerstudio{ background-position: -105px -1728px; width: 32px; height: 32px; }
+.flair-go{ background-position: -105px -1824px; width: 32px; height: 32px; }
+.flair-google-apps-script{ background-position: -105px -1920px; width: 32px; height: 32px; }
+.flair-groovy{ background-position: -210px 0; width: 32px; height: 32px; }
+.flair-gtk{ background-position: -210px -96px; width: 32px; height: 32px; }
+.flair-hack{ background-position: -210px -192px; width: 32px; height: 32px; }
+.flair-haskell{ background-position: -210px -288px; width: 32px; height: 32px; }
+.flair-haxe{ background-position: -210px -384px; width: 32px; height: 32px; }
+.flair-hop{ background-position: -210px -480px; width: 32px; height: 32px; }
+.flair-html5{ background-position: -210px -576px; width: 32px; height: 32px; }
+.flair-io{ background-position: -210px -672px; width: 32px; height: 32px; }
+.flair-ioke{ background-position: -210px -768px; width: 32px; height: 32px; }
+.flair-jade{ background-position: -210px -864px; width: 32px; height: 32px; }
+.flair-java{ background-position: -210px -960px; width: 32px; height: 32px; }
+.flair-js{ background-position: -210px -1056px; width: 32px; height: 32px; }
+.flair-julia{ background-position: -210px -1152px; width: 32px; height: 32px; }
+.flair-lilypond{ background-position: -210px -1248px; width: 32px; height: 32px; }
+.flair-lua{ background-position: -210px -1344px; width: 32px; height: 32px; }
+.flair-mathematica{ background-position: -210px -1440px; width: 32px; height: 32px; }
+.flair-matlab{ background-position: -210px -1536px; width: 32px; height: 32px; }
+.flair-maxima{ background-position: -210px -1632px; width: 32px; height: 32px; }
+.flair-mercury{ background-position: -210px -1728px; width: 32px; height: 32px; }
+.flair-metal{ background-position: -210px -1824px; width: 32px; height: 32px; }
+.flair-modula3{ background-position: -210px -1920px; width: 32px; height: 32px; }
+.flair-nasm{ background-position: -315px 0; width: 32px; height: 32px; }
+.flair-neko{ background-position: -315px -96px; width: 32px; height: 32px; }
+.flair-obix{ background-position: -315px -192px; width: 32px; height: 32px; }
+.flair-objectivec{ background-position: -315px -288px; width: 32px; height: 32px; }
+.flair-opa{ background-position: -315px -384px; width: 32px; height: 32px; }
+.flair-opencl{ background-position: -315px -480px; width: 32px; height: 32px; }
+.flair-opengl{ background-position: -315px -576px; width: 32px; height: 32px; }
+.flair-oxygene{ background-position: -315px -672px; width: 32px; height: 32px; }
+.flair-pawl{ background-position: -315px -768px; width: 32px; height: 32px; }
+.flair-php{ background-position: -315px -864px; width: 32px; height: 32px; }
+.flair-picolisp{ background-position: -315px -960px; width: 32px; height: 32px; }
+.flair-pike{ background-position: -315px -1056px; width: 32px; height: 32px; }
+.flair-processing{ background-position: -315px -1152px; width: 32px; height: 32px; }
+.flair-python{ background-position: -315px -1248px; width: 32px; height: 32px; }
+.flair-qml{ background-position: -315px -1344px; width: 32px; height: 32px; }
+.flair-qt{ background-position: -315px -1440px; width: 32px; height: 32px; }
+.flair-r{ background-position: -315px -1536px; width: 32px; height: 32px; }
+.flair-racket{ background-position: -315px -1632px; width: 32px; height: 32px; }
+.flair-rebel{ background-position: -315px -1728px; width: 32px; height: 32px; }
+.flair-red{ background-position: -315px -1824px; width: 32px; height: 32px; }
+.flair-rexx{ background-position: -315px -1920px; width: 32px; height: 32px; }
+.flair-robotc{ background-position: -420px 0; width: 32px; height: 32px; }
+.flair-ruby{ background-position: -420px -96px; width: 32px; height: 32px; }
+.flair-rust{ background-position: -420px -192px; width: 32px; height: 32px; }
+.flair-sas{ background-position: -420px -288px; width: 32px; height: 32px; }
+.flair-scala{ background-position: -420px -384px; width: 32px; height: 32px; }
+.flair-scheme{ background-position: -420px -480px; width: 32px; height: 32px; }
+.flair-scratch{ background-position: -420px -576px; width: 32px; height: 32px; }
+.flair-self{ background-position: -420px -672px; width: 32px; height: 32px; }
+.flair-squeak{ background-position: -420px -768px; width: 32px; height: 32px; }
+.flair-sumulink{ background-position: -420px -864px; width: 32px; height: 32px; }
+.flair-swift{ background-position: -420px -960px; width: 32px; height: 32px; }
+.flair-tcl{ background-position: -420px -1056px; width: 32px; height: 33px; }
+.flair-tex{ background-position: -420px -1153px; width: 32px; height: 32px; }
+.flair-visualbasicexpress{ background-position: -420px -1249px; width: 32px; height: 32px; }
+.flair-xojo{ background-position: -420px -1345px; width: 32px; height: 32px; }
 
 #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
-
-color: #DD4814 !important;
-border-top: 3px solid #DD4814;
-text-decoration: none;
-font-weight: 400;
+	color: #DD4814 !important;
+	border-top: 3px solid #DD4814;
+	text-decoration: none;
+	font-weight: 400;
 }
